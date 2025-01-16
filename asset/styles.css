@@ -1,0 +1,524 @@
+header {
+    background-color: var(--bg-color-1);
+    height: 90px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header .container {
+    width: 93%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .inner-logo {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+}
+
+header .container .inner-logo img{
+    width: 3.2rem;
+}
+
+header .container .inner-logo .caption a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-1);
+}
+
+header .container .inner-menu {
+    height: 100%;
+}
+
+header .container .inner-menu ul {
+    display: flex;
+    height: 100%;
+}
+
+header .container .inner-menu ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    padding: 0 1.5vw;
+}
+
+header .container .inner-menu ul li:hover {
+    background-color: white;
+}
+
+header .container .inner-menu ul li a {
+    font-size: 1.15rem;
+    font-weight: 550;
+    color: var(--color-1);
+    padding: 20% 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+header .container .inner-menu ul li a:hover {
+    color: var(--text-color);
+}
+
+
+header .container .inner-social ul {
+    display: flex;
+}
+
+header .container .inner-social ul li {
+    background-color: white;
+    margin-left: 1rem;
+    border-radius: 8px;
+}
+
+header .container .inner-social ul li a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    color: var(--color-1);
+}
+
+.section-1 {
+    position: relative;
+    background-image: url(https://mobirise.com/extensions/softwarem4/software-app/assets/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 7rem 0;
+}
+
+.section-1 .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.section-1 .width-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.section-1 .width-content .content {
+    width: 45%;
+    height: 300px;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-1 .width-content .content span {
+    font-size: 1.1rem;
+    font-weight: 650;
+}
+.section-1 .width-content .content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section-1 .width-content .content p {
+    color: #bbbbbb;
+    font-size: 1.1rem;
+}
+
+.section-1 .width-content .content .button {
+    display: flex;
+}
+
+.section-1 .width-content .content a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 11rem;
+    height: 3.5rem;
+    background-color: var(--color-2);
+    margin-right: 15px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.section-1 .width-content .content .button-1 {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.section-1 .width-content .content .button-1:hover {
+    background-color: white;
+}
+
+.section-1 .width-content .content .button-2 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px rgb(121, 121, 121) solid;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.section-1 .width-content .content .button-2:hover {
+    background-color: var(--color-2);
+    color: black;
+}
+
+.section-2 {
+    background-color: var(--bg-color-1);
+    padding: 6rem 0;
+}
+
+.section-2 .width-content .content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 .width-content .content-1 img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section-2 .width-content .content-1 .text-wrapper {
+    width: 50%;
+}
+
+.section-2 .width-content .content-1 .text-wrapper span {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.section-2 .width-content .content-1 .text-wrapper h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.section-2 .width-content .content-1 .text-wrapper .icon {
+    display: flex;
+    height: 8rem;
+    margin: 20px 0;
+}
+
+.section-2 .width-content .content-1 .text-wrapper .icon div {
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 8rem;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 1.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .width-content .content-1 .text-wrapper .icon i {
+    font-size: 2.5rem;
+    color: #ff8484;
+    margin-bottom: 10%;
+}
+
+.section-2 .width-content .content-1 .text-wrapper .description {
+    font-size: 1.15rem;
+    color: var(--text-color);
+    margin: 20px 0;
+}
+
+.section-2 .width-content .content-1 .text-wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    width: 10rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.section-2 .width-content .content-1 .text-wrapper a:hover {
+    background-color: white;
+}
+
+.section-2 .width-content .content-2 {
+    background-color: white;
+    height: 300px;
+    margin-top: 200px;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+}
+
+.section-2 .width-content .content-2 .text-wrapper {
+    width: 50%;
+    align-self: center;
+    padding: 0 5vw;
+}
+
+.section-2 .width-content .content-2 .text-wrapper span {
+    color: #777777;
+    font-size: 1.3 rem;
+    font-weight: 500;   
+}
+
+.section-2 .width-content .content-2 .text-wrapper h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section-2 .width-content .content-2 img {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    border-radius: 8px 8px 0 0;
+}
+
+.section-3 {
+    padding: 80px 0 60px 0;
+}
+
+.section-3 .width-content .text-wrapper h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-3 .width-content .text-wrapper p {
+    font-size: 1.1rem;
+    color: #777777;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.section-3 .width-content .tick {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.section-3 .width-content .tick i{
+    background-color: #e9e9e9;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 1vw;
+}
+
+.section-4 {
+    background-color: var(--bg-color-1);
+    padding: 60px 0;
+}
+
+.section-4 .width-content h3 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.section-4 .width-content .inner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4 .width-content .inner-box a {
+    width: 31%;
+    position: relative;
+}
+
+.section-4 .width-content .inner-box a img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.section-4 .width-content .inner-box a i {
+    position: absolute;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1rem;
+    bottom: 30%;
+    right: 7%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section-4 .width-content .inner-box a .text-wrapper {
+    background-color: white;
+    height: 100px;
+    padding: 2rem 0 0 2rem;
+    border-radius: 0 0 8px 8px;
+}
+
+.section-4 .width-content .inner-box a .text-wrapper span {
+    color: #777777;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.section-4 .width-content .inner-box a .text-wrapper h4 {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.section-5 {
+    background-color: #31363b;
+    padding: 60px 0 ;
+}
+
+.section-5 .width-content .inner-text p {
+    color: #bbbbbb;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-5 .width-content .inner-text h3 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-5 .width-content .inner-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-5 .width-content .inner-box .box {
+    background-color: white;
+    width: 31%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.section-5 .width-content .inner-box .box p:first-child {
+    padding: 2rem;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.section-5 .width-content .inner-box .box .info {
+    padding: 0 0 2rem 2rem;
+    display: flex;
+    align-items: center;
+}
+.section-5 .width-content .inner-box .box .info img {
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.section-5 .width-content .inner-box .box .info strong {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.section-5 .width-content .inner-box .box .info p {
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.section-6 {
+    background-color: white;
+    padding: 60px 0;
+}
+
+.section-6 .form {
+    background-color: #dce8eb;
+    padding: 80px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-6 .form p {
+    color: #777777;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-6 .form h4 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section-6 .form form .box-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-6 .form form .box-wrapper input {
+    font-size: 1.1rem;
+    width: calc(32% - 1rem);
+    height: 3rem;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.section-6 .form form textarea {
+    width: calc(100% - 2rem);
+    min-height: 120px;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-family: var(--font);
+}
+
+.section-6 .form .submit {
+    background-color: #1b2026;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 14rem;
+    padding: 1.2rem 0;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-align: center;
+    align-self: flex-end;
+    transition: all 0.3s ease;
+}
+
+.section-6 .form .submit:hover {
+    background-color: var(--color-2);
+    color: black;
+}
+
+footer {
+    background-color: #31363b;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
